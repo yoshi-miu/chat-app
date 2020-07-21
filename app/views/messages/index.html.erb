@@ -7,6 +7,10 @@
 <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
 </head>
 <div class="wrapper">
-  <%= render "side_bar" %>
+  <div class="side-bar">
+    <%= render "side_bar" %>
+  </div>
+  <div class="chat">
   <%= render "main_chat" %>
+  </div>
 </div>
